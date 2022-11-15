@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NeuralNetwork2">
+      <UniqueIdentifier>{423aa183-e998-4fcb-aa66-5fce5bdba7f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cc">
+      <Filter>NeuralNetwork2</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork.cc">
+      <Filter>NeuralNetwork2</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCLStuff.cc">
+      <Filter>NeuralNetwork2</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCLData.cc">
+      <Filter>NeuralNetwork2</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPropNeuralNetwork.cc">
+      <Filter>NeuralNetwork2</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernels.cc">
+      <Filter>NeuralNetwork2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NeuralNetwork.h">
+      <Filter>NeuralNetwork2</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCLStuff.h">
+      <Filter>NeuralNetwork2</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCLData.h">
+      <Filter>NeuralNetwork2</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPropNeuralNetwork.h">
+      <Filter>NeuralNetwork2</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernels.h">
+      <Filter>NeuralNetwork2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
